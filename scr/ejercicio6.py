@@ -8,9 +8,8 @@ print(pro1)
 iva = float(0.10)
 coniva = pro1 * iva
 sumaiva =float(coniva + pro1)
-print("El articulo cuesta: ")
-print(pro1)
-print("Coste del IVA: ")
-print(coniva)
-print("El coste del IVA sumado al articulo es: ")
-print(sumaiva)
+print("El articulo cuesta: ", pro1)
+
+print("Coste del IVA: ", coniva)
+
+print("El coste del IVA sumado al articulo es: ", sumaiva)
