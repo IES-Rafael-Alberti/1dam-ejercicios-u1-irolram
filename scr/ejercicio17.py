@@ -4,5 +4,6 @@ imprima por pantalla en líneas distintas el nombre del usuario tantas veces com
 """
 nom =input("Escriba su nombre: ")
 num =int(input("Escribe un numero entero: "))
-print(nom "\n" * int(num))
+for _ in range(num): #El "for _ in" es un bucle 
+    print(nom)
 
