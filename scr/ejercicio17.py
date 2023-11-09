@@ -6,4 +6,3 @@ nom =input("Escriba su nombre: ")
 num =int(input("Escribe un numero entero: "))
 for _ in range(num): #El "for _ in" es un bucle 
     print(nom)
-
